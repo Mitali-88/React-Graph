@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
+import Graph from "./components/graph.js";
 
-import BarChart from './components/BarChart'
-import './App.css'
 
 const App = () => {
   return (
     <div>
-      <BarChart />
+      <Graph />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
